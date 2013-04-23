@@ -183,7 +183,6 @@ C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.web\bin\Entity
 C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.web\obj\Debug\CIS411_Project.web.csprojResolveAssemblyReference.cache
 C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.web\obj\Debug\CIS411_Project.web.dll
 C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.web\obj\Debug\CIS411_Project.web.pdb
-<<<<<<< HEAD
 C:\Users\Ermania\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.web.dll
 C:\Users\Ermania\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.web.pdb
 C:\Users\Ermania\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.core.dll
@@ -250,4 +249,3 @@ C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Projec
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\EntityFramework.xml
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\obj\Debug\CIS411_Project.web.dll
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\obj\Debug\CIS411_Project.web.pdb
->>>>>>> 905115bd26672278ba5135d175741aaf33d19fdf
