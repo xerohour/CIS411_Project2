@@ -25,6 +25,13 @@ namespace CIS411_Project.web.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Contact";
+            return View();
+        }
+
    
 
 
