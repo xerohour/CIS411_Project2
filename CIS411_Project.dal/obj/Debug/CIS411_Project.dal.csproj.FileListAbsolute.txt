@@ -36,3 +36,11 @@ C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project
 C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.dll
 C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.pdb
 C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.csprojResolveAssemblyReference.cache
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.dal\bin\Debug\CIS411_Project.dal.dll.config
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.dal\bin\Debug\CIS411_Project.dal.dll
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.dal\bin\Debug\CIS411_Project.dal.pdb
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.dal\bin\Debug\EntityFramework.dll
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.dal\bin\Debug\EntityFramework.xml
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.csprojResolveAssemblyReference.cache
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.dll
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.pdb

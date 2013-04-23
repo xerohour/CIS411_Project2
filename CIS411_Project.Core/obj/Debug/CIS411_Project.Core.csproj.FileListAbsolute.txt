@@ -45,3 +45,13 @@ C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project
 C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.core\obj\Debug\CIS411_Project.core.dll
 C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.core\obj\Debug\CIS411_Project.core.pdb
 C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.core.dll.config
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.core.dll.config
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.core.dll
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.core.pdb
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.dal.dll
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\bin\Debug\EntityFramework.dll
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.dal.pdb
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\bin\Debug\EntityFramework.xml
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\obj\Debug\CIS411_Project.core.csprojResolveAssemblyReference.cache
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\obj\Debug\CIS411_Project.core.dll
+C:\Users\xerohour\Documents\GitHub\CIS411_Project2\CIS411_Project.core\obj\Debug\CIS411_Project.core.pdb
