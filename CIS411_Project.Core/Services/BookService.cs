@@ -7,6 +7,7 @@ using CIS411_Project.Core.Models;
 using CIS411_Project.dal;
 using CIS411_Project.dal.Repositories;
 
+
 namespace CIS411_Project.Core.Services
 {
     public class BookService : CIS411_Project.Core.Services.IService
@@ -97,8 +98,8 @@ namespace CIS411_Project.Core.Services
             User user2add = newUser;
             USER u3 = new USER();
             UserRepo userRepo = new UserRepo();
-          
-            
+
+
             u3.USER_FNAME = user2add.USER_FNAME;
             u3.USER_LNAME = user2add.USER_LNAME;
             u3.USER_EMAIL = user2add.EMAIL;
@@ -110,8 +111,34 @@ namespace CIS411_Project.Core.Services
 
             return user2add;
         }
+        public ICollection<Books> searchBookByTitle(string SearchString)
+        {
+            string searchText = SearchString;
+            BookRepo BookRepo = new BookRepo();
+            IEnumerable<BOOK> books = BookRepo.query(s => s.BOOK_TITLE.Contains(searchText));
+     
+            ICollection<Books> bookList = new List<Books>();
+            Books book = null;
+            foreach (BOOK b1 in books)
+            {
+                book = new Books();
+                book.BOOK_ID = b1.BOOK_ID;
+                book.BOOK_TITLE = b1.BOOK_TITLE;
+                book.BOOK_DESC = b1.BOOK_DESC;
+                book.USER_ID = b1.USER_ID;
+                book.BOOK_AUTHOR = b1.BOOK_AUTHOR;
+                book.BOOK_EDITION = b1.BOOK_EDITION;
+                book.BOOK_PRICE = b1.BOOK_PRICE;
+                book.BOOK_PUBLISHER = b1.BOOK_PUBLISHER;
+                book.CATEGORY_ID = b1.CATEGORY_ID;
+                book.CONDITION_ID = b1.CONDITION_ID;
+                book.CREATED_TIMESTAMP = b1.CREATED_TIMESTAMP;
 
-
+                bookList.Add(book);
+            }
+            BookRepo = null;
+            return bookList;
+        }
 
     }
 }

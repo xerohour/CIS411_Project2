@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CIS411_Project.Core.Models;
+using CIS411_Project.Core.Services;
+
 
 namespace CIS411_Project.web.Controllers
 {
@@ -16,14 +19,15 @@ namespace CIS411_Project.web.Controllers
             return View();
         }
 
-        //[HttpPost]
-        //public ActionResult Results(string searchText)
-        //{
-        //    // You would actually do something more useful here.
-        //    // This just fudges some results for displaying in the View.
-        //    var model = new SearchResults {SearchText = searchText, Results = new List<string> {searchText}};
-        //  return View(model);        
-        //}
+        [HttpPost]
+        public ActionResult Results(string searchText)
+        {
+            BookService service = new BookService();
+            service.searchBookByTitle(searchText);
+
+            return View();
+            
+        }
 
         //[AcceptVerbs(HttpVerbs.Post)]
         //[ActionName("Results")]

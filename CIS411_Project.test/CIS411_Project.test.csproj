@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="core\BookServiceTest.cs" />
     <Compile Include="dal\BookTest.cs" />
     <Compile Include="dal\UserTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

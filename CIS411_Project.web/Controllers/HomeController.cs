@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CIS411_Project.Core.Models;
+using CIS411_Project.Core.Services;
 
 namespace CIS411_Project.web.Controllers
 {
@@ -13,10 +15,17 @@ namespace CIS411_Project.web.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Message = "Hello";   
-
-            return View();
+            var db = new BookService();
+            return View(db.listBooks());
+                
+            
         }
+
+        //public ActionResult Create()
+        //{
+        //    BookService service = new BookService();
+
+        //}
 
         [HttpGet]
         public ActionResult About()

@@ -21,7 +21,7 @@ namespace CIS411_Project.test.dal
             bRepo = new BookRepo();
             bookA = new BOOK
             {
-                BOOK_ID = 2,
+                BOOK_ID = 1,
                 BOOK_TITLE = "derp",
                 BOOK_DESC = "book",
                 BOOK_AUTHOR = "jesus",
@@ -31,14 +31,11 @@ namespace CIS411_Project.test.dal
                 ISBN13 = 13,
                 CONDITION_ID = 10,
                 CATEGORY_ID = 1,
-                USER_ID = 1,
                 BOOK_PRICE = 5.99,
                 CREATED_TIMESTAMP = DateTime.Now
             };
 
             bRepo.add(bookA);
-
-
         }
         [TestMethod]
         public void bookTitle()
