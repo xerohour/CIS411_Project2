@@ -16,15 +16,21 @@ namespace CIS411_Project.web.Controllers
             return View();
         }
 
-       // [HttpPost]
+        //[HttpPost]
         //public ActionResult Results(string searchText)
-       // {
-            // You would actually do something more useful here.
-            // This just fudges some results for displaying in the View.
-           // var model = new SearchResults {SearchText = searchText, Results = new List<string> {searchText}};
-            //return View(model);        
-       // }
+        //{
+        //    // You would actually do something more useful here.
+        //    // This just fudges some results for displaying in the View.
+        //    var model = new SearchResults {SearchText = searchText, Results = new List<string> {searchText}};
+        //  return View(model);        
+        //}
 
+        //[AcceptVerbs(HttpVerbs.Post)]
+        //[ActionName("Results")]
+        //public ActionResult ResultsPost(string searchText)
+        //{
+        //    return RedirectToAction("Results", new { searchText = searchText });
+        //}
 
     }
 }
