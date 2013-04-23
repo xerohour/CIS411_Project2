@@ -16,10 +16,9 @@
                 <section id="login">
                     @Html.Partial("_LoginPartial")
                 </section>
-                @using(Html.BeginForm("Index", "Search", FormMethod.Post))
-                {
-                    <input type="text" name="q" />
-                }
+                <section>
+                    @Html.Partial("_SearchBarPartial")
+                </section>
                 <nav>
                     <ul id="menu">
                         <li>@Html.ActionLink("Home", "Index", "Home")</li>
