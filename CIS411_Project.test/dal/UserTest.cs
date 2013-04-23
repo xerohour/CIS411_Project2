@@ -31,7 +31,7 @@ namespace CIS411_Project.test.dal
                 REPUTATION = 1,
                 CREATED_TIMESTAMP = DateTime.Now
             };
-            //uRepo.add(userA);
+            uRepo.add(userA);
 
             uRepo.add(new USER
             {
@@ -89,7 +89,7 @@ namespace CIS411_Project.test.dal
             Assert.AreEqual(true,usersB.Length>usersA.Length);
         }
 
-        [TestCleanup]
+        /*[TestCleanup]
         public void cleanUp()
         {
             IQueryable<USER> users = uRepo.query(a => a.USER_ID == 1 || a.USER_ID == 2 || a.USER_ID == 3 || a.USER_ID == 4);
@@ -97,6 +97,36 @@ namespace CIS411_Project.test.dal
             {
                 uRepo.remove(user);
             }
-        }
+        }*/
+		
+		[TestCleanup]
+		public void cleanUp()
+		{
+			USER user;
+			
+			user = uRepo.getById(new USER { USER_ID = 1 });
+			if(user != null)
+				uRepo.remove(user);
+			user = uRepo.getById(new USER { USER_ID = 1 });
+				Assert.AreEqual(null, user);
+				
+			user = uRepo.getById(new USER { USER_ID = 2 });
+			if(user != null)
+				uRepo.remove(user);
+			user = uRepo.getById(new USER { USER_ID = 2 });
+				Assert.AreEqual(null, user);
+				
+			user = uRepo.getById(new USER { USER_ID = 3 });
+			if(user != null)
+				uRepo.remove(user);
+			user = uRepo.getById(new USER { USER_ID = 3 });
+				Assert.AreEqual(null, user);
+				
+			user = uRepo.getById(new USER { USER_ID = 4 });
+			if(user != null)
+				uRepo.remove(user);
+			user = uRepo.getById(new USER { USER_ID = 4 });
+				Assert.AreEqual(null, user);
+				
     }
 }
