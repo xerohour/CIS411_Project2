@@ -22,7 +22,6 @@ namespace CIS411_Project.test.dal
             uRepo = new UserRepo();
             userA = new USER
             {
-                USER_ID = 1,
                 USER_FNAME = "Ermin",
                 USER_LNAME = "Avdagic",
                 USER_DISPLAYNAME = "Me",
@@ -35,7 +34,6 @@ namespace CIS411_Project.test.dal
 
             uRepo.add(new USER
             {
-                USER_ID = 2,
                 USER_FNAME = "Jon",
                 USER_LNAME = "Smith",
                 USER_EMAIL = "jon@gmail.com",
@@ -50,7 +48,7 @@ namespace CIS411_Project.test.dal
         [TestMethod]
         public void userGetByID()
         {
-            USER userB = uRepo.getById(new USER { USER_ID = 1 });
+            USER userB = uRepo.getById(new USER { USER_ID = userA.USER_ID });
             Assert.AreEqual(userA.USER_FNAME, userB.USER_FNAME);
             Assert.AreEqual(userA.USER_LNAME, userB.USER_LNAME);
         }
@@ -63,7 +61,6 @@ namespace CIS411_Project.test.dal
 
             uRepo.add(new USER
             {
-                USER_ID = 3,
                 USER_FNAME = "Sara",
                 USER_LNAME = "Johnson",
                 USER_DISPLAYNAME = "SaraJ",
@@ -75,7 +72,6 @@ namespace CIS411_Project.test.dal
 
             uRepo.add(new USER
             {
-                USER_ID = 4,
                 USER_FNAME = "Joe",
                 USER_LNAME = "Franklin",
                 USER_DISPLAYNAME = "JoeFrank",
