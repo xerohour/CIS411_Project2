@@ -19,7 +19,6 @@ C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\Ent
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.csprojResolveAssemblyReference.cache
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.dll
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.pdb
->>>>>>> 3c7900e3df15463b2f094cfe5e762370e970b6cd
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.dll.config
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.core.dll
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.dal.dll
@@ -28,3 +27,15 @@ C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Projec
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.dal.pdb
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\EntityFramework.xml
 C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.csprojResolveAssemblyReference.cache
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\CIS411_Project.test.dll.config
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\CIS411_Project.test.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\CIS411_Project.test.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\CIS411_Project.core.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\CIS411_Project.dal.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\EntityFramework.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\CIS411_Project.core.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\CIS411_Project.dal.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\bin\Debug\EntityFramework.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\obj\Debug\CIS411_Project.test.csprojResolveAssemblyReference.cache
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\obj\Debug\CIS411_Project.test.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.test\obj\Debug\CIS411_Project.test.pdb

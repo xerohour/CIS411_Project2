@@ -26,4 +26,12 @@ C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.core\bin\Debug\Ent
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.core\obj\Debug\CIS411_Project.core.csprojResolveAssemblyReference.cache
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.core\obj\Debug\CIS411_Project.core.dll
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.core\obj\Debug\CIS411_Project.core.pdb
->>>>>>> 3c7900e3df15463b2f094cfe5e762370e970b6cd
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.core.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.core.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.dal.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\bin\Debug\EntityFramework.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\bin\Debug\CIS411_Project.dal.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\bin\Debug\EntityFramework.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\obj\Debug\CIS411_Project.core.csprojResolveAssemblyReference.cache
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\obj\Debug\CIS411_Project.core.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.core\obj\Debug\CIS411_Project.core.pdb

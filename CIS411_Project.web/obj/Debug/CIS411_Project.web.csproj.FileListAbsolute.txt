@@ -84,3 +84,36 @@ C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.web\bin\System.Web
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.web\bin\System.Web.WebPages.Razor.xml
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.web\obj\Debug\CIS411_Project.web.dll
 C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.web\obj\Debug\CIS411_Project.web.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.web.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.web.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.core.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\Microsoft.Web.Infrastructure.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\Newtonsoft.Json.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Net.Http.Formatting.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Helpers.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Http.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Http.WebHost.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Mvc.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Razor.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.WebPages.Deployment.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.WebPages.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.WebPages.Razor.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.dal.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\EntityFramework.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.core.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\Newtonsoft.Json.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Net.Http.Formatting.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Helpers.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Http.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Http.WebHost.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Mvc.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.Razor.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.WebPages.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.WebPages.Deployment.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\System.Web.WebPages.Razor.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\CIS411_Project.dal.pdb
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\bin\EntityFramework.xml
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\obj\Debug\CIS411_Project.web.csprojResolveAssemblyReference.cache
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\obj\Debug\CIS411_Project.web.dll
+E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.web\obj\Debug\CIS411_Project.web.pdb
