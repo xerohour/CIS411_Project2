@@ -59,18 +59,18 @@ namespace CIS411_Project.test.dal
         public void userGetAll()
         {
             USER[] usersA = uRepo.getAll();
-            Assert.AreEqual(true, usersA.Length>0);
+            Assert.AreEqual(true, usersA.Length > 0);
 
             uRepo.add(new USER
             {
                 USER_ID = 3,
-                USER_FNAME="Sara",
-                USER_LNAME="Johnson",
-                USER_DISPLAYNAME="SaraJ",
-                USER_EMAIL="sara@gmail.com",
-                REPUTATION=10,
-                CREATED_TIMESTAMP=DateTime.Now,
-                PASSWORD="sara"
+                USER_FNAME = "Sara",
+                USER_LNAME = "Johnson",
+                USER_DISPLAYNAME = "SaraJ",
+                USER_EMAIL = "sara@gmail.com",
+                REPUTATION = 10,
+                CREATED_TIMESTAMP = DateTime.Now,
+                PASSWORD = "sara"
             });
 
             uRepo.add(new USER
@@ -86,7 +86,7 @@ namespace CIS411_Project.test.dal
             });
 
             USER[] usersB = uRepo.getAll();
-            Assert.AreEqual(true,usersB.Length>usersA.Length);
+            Assert.AreEqual(true, usersB.Length > usersA.Length);
         }
 
         /*[TestCleanup]
@@ -98,35 +98,36 @@ namespace CIS411_Project.test.dal
                 uRepo.remove(user);
             }
         }*/
-		
-		[TestCleanup]
-		public void cleanUp()
-		{
-			USER user;
-			
-			user = uRepo.getById(new USER { USER_ID = 1 });
-			if(user != null)
-				uRepo.remove(user);
-			user = uRepo.getById(new USER { USER_ID = 1 });
-				Assert.AreEqual(null, user);
-				
-			user = uRepo.getById(new USER { USER_ID = 2 });
-			if(user != null)
-				uRepo.remove(user);
-			user = uRepo.getById(new USER { USER_ID = 2 });
-				Assert.AreEqual(null, user);
-				
-			user = uRepo.getById(new USER { USER_ID = 3 });
-			if(user != null)
-				uRepo.remove(user);
-			user = uRepo.getById(new USER { USER_ID = 3 });
-				Assert.AreEqual(null, user);
-				
-			user = uRepo.getById(new USER { USER_ID = 4 });
-			if(user != null)
-				uRepo.remove(user);
-			user = uRepo.getById(new USER { USER_ID = 4 });
-				Assert.AreEqual(null, user);
-				
+
+        [TestCleanup]
+        public void cleanUp()
+        {
+            USER user;
+
+            user = uRepo.getById(new USER { USER_ID = 1 });
+            if (user != null)
+                uRepo.remove(user);
+            user = uRepo.getById(new USER { USER_ID = 1 });
+            Assert.AreEqual(null, user);
+
+            user = uRepo.getById(new USER { USER_ID = 2 });
+            if (user != null)
+                uRepo.remove(user);
+            user = uRepo.getById(new USER { USER_ID = 2 });
+            Assert.AreEqual(null, user);
+
+            user = uRepo.getById(new USER { USER_ID = 3 });
+            if (user != null)
+                uRepo.remove(user);
+            user = uRepo.getById(new USER { USER_ID = 3 });
+            Assert.AreEqual(null, user);
+
+            user = uRepo.getById(new USER { USER_ID = 4 });
+            if (user != null)
+                uRepo.remove(user);
+            user = uRepo.getById(new USER { USER_ID = 4 });
+            Assert.AreEqual(null, user);
+
+        }
     }
 }
