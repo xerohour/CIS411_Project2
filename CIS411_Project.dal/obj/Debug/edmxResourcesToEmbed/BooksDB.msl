@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BooksDBModelStoreContainer" CdmEntityContainer="BooksDBEntities">
+    <EntitySetMapping Name="BOOKs">
+      <EntityTypeMapping TypeName="BooksDBModel.BOOK">
+        <MappingFragment StoreEntitySet="BOOK">
+          <ScalarProperty Name="BOOK_ID" ColumnName="BOOK_ID" />
+          <ScalarProperty Name="BOOK_TITLE" ColumnName="BOOK_TITLE" />
+          <ScalarProperty Name="BOOK_DESC" ColumnName="BOOK_DESC" />
+          <ScalarProperty Name="BOOK_AUTHOR" ColumnName="BOOK_AUTHOR" />
+          <ScalarProperty Name="BOOK_EDITION" ColumnName="BOOK_EDITION" />
+          <ScalarProperty Name="BOOK_PUBLISHER" ColumnName="BOOK_PUBLISHER" />
+          <ScalarProperty Name="ISBN10" ColumnName="ISBN10" />
+          <ScalarProperty Name="ISBN13" ColumnName="ISBN13" />
+          <ScalarProperty Name="CONDITION_ID" ColumnName="CONDITION_ID" />
+          <ScalarProperty Name="CATEGORY_ID" ColumnName="CATEGORY_ID" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="BOOK_PRICE" ColumnName="BOOK_PRICE" />
+          <ScalarProperty Name="CREATED_TIMESTAMP" ColumnName="CREATED_TIMESTAMP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CATEGORies">
+      <EntityTypeMapping TypeName="BooksDBModel.CATEGORY">
+        <MappingFragment StoreEntitySet="CATEGORY">
+          <ScalarProperty Name="CATEGORY_ID" ColumnName="CATEGORY_ID" />
+          <ScalarProperty Name="CATEGORY_NAME" ColumnName="CATEGORY_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CONDITIONs">
+      <EntityTypeMapping TypeName="BooksDBModel.CONDITION">
+        <MappingFragment StoreEntitySet="CONDITION">
+          <ScalarProperty Name="CONDITION_ID" ColumnName="CONDITION_ID" />
+          <ScalarProperty Name="CONDITION_NAME" ColumnName="CONDITION_NAME" />
+          <ScalarProperty Name="CONDITION_DESC" ColumnName="CONDITION_DESC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BooksDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERs">
+      <EntityTypeMapping TypeName="BooksDBModel.USER">
+        <MappingFragment StoreEntitySet="USER">
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="USER_FNAME" ColumnName="USER_FNAME" />
+          <ScalarProperty Name="USER_LNAME" ColumnName="USER_LNAME" />
+          <ScalarProperty Name="USER_DISPLAYNAME" ColumnName="USER_DISPLAYNAME" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="REPUTATION" ColumnName="REPUTATION" />
+          <ScalarProperty Name="USER_EMAIL" ColumnName="USER_EMAIL" />
+          <ScalarProperty Name="CREATED_TIMESTAMP" ColumnName="CREATED_TIMESTAMP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

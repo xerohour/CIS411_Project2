@@ -1,0 +1,30 @@
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.dll
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.pdb
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.dll
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.pdb
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.dll
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.pdb
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.dll
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.pdb
+=======
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.dll.config
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.dll
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.pdb
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.core.dll
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.dal.dll
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\EntityFramework.dll
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.core.pdb
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.dal.pdb
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\bin\Debug\EntityFramework.xml
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.csprojResolveAssemblyReference.cache
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.dll
+C:\Users\Ermania\CIS411_Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.pdb
+>>>>>>> 3c7900e3df15463b2f094cfe5e762370e970b6cd
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.test.dll.config
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.core.dll
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.dal.dll
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\EntityFramework.dll
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.core.pdb
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\CIS411_Project.dal.pdb
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\bin\Debug\EntityFramework.xml
+C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project\CIS411_Project.test\obj\Debug\CIS411_Project.test.csprojResolveAssemblyReference.cache

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BooksDBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="BOOKs" EntityType="BooksDBModel.BOOK" />
+    <EntitySet Name="CATEGORies" EntityType="BooksDBModel.CATEGORY" />
+    <EntitySet Name="CONDITIONs" EntityType="BooksDBModel.CONDITION" />
+    <EntitySet Name="sysdiagrams" EntityType="BooksDBModel.sysdiagram" />
+    <EntitySet Name="USERs" EntityType="BooksDBModel.USER" />
+    <AssociationSet Name="FK_BOOK_CATEGORY" Association="BooksDBModel.FK_BOOK_CATEGORY">
+      <End Role="CATEGORY" EntitySet="CATEGORies" />
+      <End Role="BOOK" EntitySet="BOOKs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_CONDITION" Association="BooksDBModel.FK_BOOK_CONDITION">
+      <End Role="CONDITION" EntitySet="CONDITIONs" />
+      <End Role="BOOK" EntitySet="BOOKs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_USER" Association="BooksDBModel.FK_BOOK_USER">
+      <End Role="USER" EntitySet="USERs" />
+      <End Role="BOOK" EntitySet="BOOKs" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BOOK">
+    <Key>
+      <PropertyRef Name="BOOK_ID" />
+    </Key>
+    <Property Name="BOOK_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="BOOK_TITLE" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="BOOK_DESC" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BOOK_AUTHOR" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="BOOK_EDITION" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="BOOK_PUBLISHER" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ISBN10" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ISBN13" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CONDITION_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="CATEGORY_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="USER_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="BOOK_PRICE" Type="Double" />
+    <Property Name="CREATED_TIMESTAMP" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CATEGORY" Relationship="BooksDBModel.FK_BOOK_CATEGORY" FromRole="BOOK" ToRole="CATEGORY" />
+    <NavigationProperty Name="CONDITION" Relationship="BooksDBModel.FK_BOOK_CONDITION" FromRole="BOOK" ToRole="CONDITION" />
+    <NavigationProperty Name="USER" Relationship="BooksDBModel.FK_BOOK_USER" FromRole="BOOK" ToRole="USER" />
+  </EntityType>
+  <EntityType Name="CATEGORY">
+    <Key>
+      <PropertyRef Name="CATEGORY_ID" />
+    </Key>
+    <Property Name="CATEGORY_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="CATEGORY_NAME" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="BOOKs" Relationship="BooksDBModel.FK_BOOK_CATEGORY" FromRole="CATEGORY" ToRole="BOOK" />
+  </EntityType>
+  <EntityType Name="CONDITION">
+    <Key>
+      <PropertyRef Name="CONDITION_ID" />
+    </Key>
+    <Property Name="CONDITION_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="CONDITION_NAME" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CONDITION_DESC" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="BOOKs" Relationship="BooksDBModel.FK_BOOK_CONDITION" FromRole="CONDITION" ToRole="BOOK" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="USER_FNAME" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="USER_LNAME" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="USER_DISPLAYNAME" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PASSWORD" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="REPUTATION" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="USER_EMAIL" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CREATED_TIMESTAMP" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="BOOKs" Relationship="BooksDBModel.FK_BOOK_USER" FromRole="USER" ToRole="BOOK" />
+  </EntityType>
+  <Association Name="FK_BOOK_CATEGORY">
+    <End Role="CATEGORY" Type="BooksDBModel.CATEGORY" Multiplicity="1" />
+    <End Role="BOOK" Type="BooksDBModel.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORY">
+        <PropertyRef Name="CATEGORY_ID" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="CATEGORY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_CONDITION">
+    <End Role="CONDITION" Type="BooksDBModel.CONDITION" Multiplicity="1" />
+    <End Role="BOOK" Type="BooksDBModel.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CONDITION">
+        <PropertyRef Name="CONDITION_ID" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="CONDITION_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_USER">
+    <End Role="USER" Type="BooksDBModel.USER" Multiplicity="1" />
+    <End Role="BOOK" Type="BooksDBModel.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
