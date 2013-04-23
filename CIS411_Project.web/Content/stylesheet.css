@@ -45,6 +45,7 @@ MAIN LAYOUT
     background-color: #f1e8e8;
     padding-bottom: 35px;
     clear: both;
+    min-height: 600px;
 }
 
 header .content-wrapper {
