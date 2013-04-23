@@ -14,7 +14,7 @@ namespace CIS411_Project.dal
     
     public partial class BOOK
     {
-        public decimal BOOK_ID { get; set; }
+        public int BOOK_ID { get; set; }
         public string BOOK_TITLE { get; set; }
         public string BOOK_DESC { get; set; }
         public string BOOK_AUTHOR { get; set; }

@@ -28,3 +28,11 @@ E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Pro
 E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.csprojResolveAssemblyReference.cache
 E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.dll
 E:\U of L Dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.pdb
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\bin\Debug\CIS411_Project.dal.dll.config
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\bin\Debug\CIS411_Project.dal.dll
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\bin\Debug\CIS411_Project.dal.pdb
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\bin\Debug\EntityFramework.dll
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\bin\Debug\EntityFramework.xml
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.dll
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.pdb
+C:\Users\Scott\Documents\Code_Projects\Repository\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.csprojResolveAssemblyReference.cache

@@ -23,7 +23,7 @@
     <Key>
       <PropertyRef Name="BOOK_ID" />
     </Key>
-    <Property Name="BOOK_ID" Type="decimal" Nullable="false" />
+    <Property Name="BOOK_ID" Type="int" Nullable="false" />
     <Property Name="BOOK_TITLE" Type="nvarchar" MaxLength="50" />
     <Property Name="BOOK_DESC" Type="nvarchar(max)" />
     <Property Name="BOOK_AUTHOR" Type="nvarchar" MaxLength="50" />
@@ -66,7 +66,7 @@
     <Key>
       <PropertyRef Name="USER_ID" />
     </Key>
-    <Property Name="USER_ID" Type="decimal" Nullable="false" />
+    <Property Name="USER_ID" Type="decimal" Nullable="false" StoreGeneratedPattern="Identity" />
     <Property Name="USER_FNAME" Type="nvarchar" MaxLength="50" />
     <Property Name="USER_LNAME" Type="nvarchar" MaxLength="50" />
     <Property Name="USER_DISPLAYNAME" Type="nvarchar" MaxLength="50" />

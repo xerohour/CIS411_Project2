@@ -85,13 +85,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.Config" />
     <EntityDeploy Include="BooksDB.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BooksDB.Designer.cs</LastGenOutput>
     </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.Config" />
     <None Include="BooksDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>BooksDB.edmx</DependentUpon>

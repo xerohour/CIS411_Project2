@@ -95,20 +95,20 @@ namespace CIS411_Project.Core.Services
         public User insertUser(User newUser)
         {
             User user2add = newUser;
-            USER u3 = null;
+            USER u3 = new USER();
             UserRepo userRepo = new UserRepo();
           
-
-            u3.USER_FNAME = newUser.USER_FNAME;
-            u3.USER_LNAME = newUser.USER_LNAME;
-            u3.USER_EMAIL = newUser.EMAIL;
-            u3.USER_DISPLAYNAME = newUser.USER_DISPLAYNAME;
-            u3.PASSWORD = newUser.PASSWORD;
+            
+            u3.USER_FNAME = user2add.USER_FNAME;
+            u3.USER_LNAME = user2add.USER_LNAME;
+            u3.USER_EMAIL = user2add.EMAIL;
+            u3.USER_DISPLAYNAME = user2add.USER_DISPLAYNAME;
+            u3.PASSWORD = user2add.PASSWORD;
             u3.CREATED_TIMESTAMP = DateTime.Now;
             userRepo.add(u3);
 
 
-            return newUser;
+            return user2add;
         }
 
 
