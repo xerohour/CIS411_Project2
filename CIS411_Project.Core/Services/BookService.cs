@@ -136,9 +136,9 @@ namespace CIS411_Project.Core.Services
 
                 bookList.Add(book);
             }
-            BookRepo = null;
+           
             return bookList;
-        }
+        }              
 
     }
 }

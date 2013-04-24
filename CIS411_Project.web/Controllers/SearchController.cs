@@ -23,10 +23,10 @@ namespace CIS411_Project.web.Controllers
         public ActionResult Results(string searchText)
         {
             BookService service = new BookService();
-            service.searchBookByTitle(searchText);
+            return View(service.searchBookByTitle(searchText));
 
-            return View();
-            
+            //ICollection<Books> book = 
+            //return View(book);
         }
 
         //[AcceptVerbs(HttpVerbs.Post)]
