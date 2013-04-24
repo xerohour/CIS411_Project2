@@ -5,6 +5,9 @@ using System.Web;
 using System.Data;
 using System.Data.SqlClient;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Security;
+using System.Security.Cryptography;
+using System.Text;
 
 
 namespace CIS411_Project.Core.Models
@@ -37,7 +40,30 @@ namespace CIS411_Project.Core.Models
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
-        public string PASSWORD { get; set; }
+        private string passwordString;
+        public string PASSWORD {
+
+            get
+            {
+                return passwordString;
+            }
+
+            set
+            {
+                MD5 crypt = MD5.Create();
+                byte[] passwordInput = System.Text.Encoding.ASCII.GetBytes(value);
+                byte[] hash = crypt.ComputeHash(passwordInput);
+
+                StringBuilder builder = new StringBuilder();
+                foreach(byte hashChar in hash)
+                {
+                    builder.Append(hashChar.ToString("X2"));
+                }
+
+                passwordString = builder.ToString();
+            }
+
+        }
 
         public Nullable<decimal> REPUTATION { get; set; }
 
