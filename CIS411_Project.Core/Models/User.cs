@@ -11,6 +11,15 @@ namespace CIS411_Project.Core.Models
 {
     public class User
     {
+        public class EmailAttribute : RegularExpressionAttribute
+        {
+            public EmailAttribute()
+                : base(@"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
+            {
+                this.ErrorMessage = "Please provide a valid email address";
+            }
+        }
+
         public decimal USER_ID { get; set; }
 
         [Required]
@@ -33,6 +42,7 @@ namespace CIS411_Project.Core.Models
         public Nullable<decimal> REPUTATION { get; set; }
 
         [Required]
+        [Email]
         [Display(Name = "EMail")]
         public string EMAIL { get; set; }
 
