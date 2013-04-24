@@ -58,4 +58,3 @@ C:\Users\Ermania\CIS411_Project2\CIS411_Project.dal\bin\Debug\EntityFramework.xm
 C:\Users\Ermania\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.csprojResolveAssemblyReference.cache
 C:\Users\Ermania\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.dll
 C:\Users\Ermania\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.pdb
-C:\Users\Jordan\Desktop\U of L school dropbox\Dropbox\Spring 2013\CIS 411\Project\CIS411_Project2\CIS411_Project.dal\obj\Debug\CIS411_Project.dal.csprojResolveAssemblyReference.cache

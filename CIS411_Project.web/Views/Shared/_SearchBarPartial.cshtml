@@ -1,7 +1,7 @@
 ﻿<div class="searchbar">
 @using (Html.BeginForm("Results", "Search"))
 {
-    @Html.TextBox("SearchText")
+    @Html.TextBox("SearchText", null, new { @class = "searchtxtarea" })
     <input id="searchbtn" type="submit" value="Search" class="search-button" />
 }
 </div>

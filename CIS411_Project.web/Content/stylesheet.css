@@ -73,8 +73,8 @@ TITLE
 .site-title {
     /*color: #c8c8c8;*/
     color: black;
-    font-family: "Myriad Pro", Courier New, Courier, monospace;
-    font-size: 2.3em;
+    font-family:  'Titillium Web', Myriad Pro, Courier New, Courier, monospace;
+    font-size: 3em;
     margin: 0;
 }
 
@@ -99,11 +99,11 @@ LOGIN
 }
 
     #login a {
-        background-color: #ffb146;
+        background-color: #ffc471;
         border: solid black 1px;
         margin-left: 10px;
         margin-right: 3px;
-        padding: 2px 3px;
+        padding: 5px;
         text-decoration: none;
     }
 
@@ -159,7 +159,8 @@ ul#menu li a:hover {
 
 .searchbar
 {
-    padding-top:40px;
+    padding-top:30px;
+    padding-bottom:10px;
 }
 
 #searchbtn
@@ -172,5 +173,14 @@ ul#menu li a:hover {
         padding: 7px;
         margin-right: 8px;
         width: auto;
-    }
+    
 }
+
+.searchtxtarea
+{
+    background-color: #c5d1fe;
+    border: 1px solid #787878;
+    padding: 5px;
+    width: 175px;
+}
+
