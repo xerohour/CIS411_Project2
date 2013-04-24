@@ -48,7 +48,7 @@ namespace CIS411_Project.Core.Models
                    @"Persist Security Info=True;User ID=student6;Password=student6;" +
                    @"MultipleActiveResultSets=True;Application Name=EntityFramework"))
             {
-                string _sql = @"SELECT [USER_DISPLAYNAME] FROM [student6].[USER] " +
+                string _sql = @"SELECT [USER_DISPLAYNAME] FROM [BooksDBEntities].[USER] " +
                        @"WHERE [USER_DISPLAYNAME] = @u AND [PASSWORD] = @p";
                 var cmd = new SqlCommand(_sql, cn);
                 cmd.Parameters

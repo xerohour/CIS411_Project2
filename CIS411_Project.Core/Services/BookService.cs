@@ -111,6 +111,29 @@ namespace CIS411_Project.Core.Services
 
             return user2add;
         }
+
+        public Books insertBooks(Books newBook)
+        {
+            Books book2add = newBook;
+            BOOK u3 = new BOOK();
+            BookRepo bookRepo = new BookRepo();
+
+
+            u3.BOOK_TITLE = book2add.BOOK_TITLE;
+            u3.BOOK_EDITION = book2add.BOOK_EDITION;
+            u3.BOOK_DESC = book2add.BOOK_DESC;
+            u3.BOOK_AUTHOR = book2add.BOOK_AUTHOR;
+            u3.BOOK_PUBLISHER = book2add.BOOK_PUBLISHER;
+            u3.BOOK_PRICE = book2add.BOOK_PRICE;
+            u3.CATEGORY_ID = book2add.CATEGORY_ID;
+            u3.CONDITION_ID = book2add.CONDITION_ID;
+            u3.USER_ID = book2add.USER_ID;
+            u3.CREATED_TIMESTAMP = DateTime.Now;
+            bookRepo.add(u3);
+
+
+            return book2add;
+        }
         public ICollection<Books> searchBookByTitle(string SearchString)
         {
             string searchText = SearchString;
@@ -138,7 +161,7 @@ namespace CIS411_Project.Core.Services
             }
            
             return bookList;
-        }              
-
+        }
+        
     }
 }

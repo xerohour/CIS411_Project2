@@ -1,6 +1,7 @@
 ﻿<div class="searchbar">
 @using (Html.BeginForm("Results", "Search"))
 {
+    @Html.DropDownList("CategoryId", "Please Select One", items, 4, new)
     @Html.TextBox("SearchText")
     <input type="submit" value="Search" class="search-button" />
 }

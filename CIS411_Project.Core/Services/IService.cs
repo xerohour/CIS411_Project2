@@ -13,6 +13,7 @@ namespace CIS411_Project.Core.Services
         ICollection<Books> listBooksByUser(int userId);
         Books getBookById(int bookId);
         User insertUser(User newUser);
+        Books insertBooks(Books newBook);
         ICollection<Books> searchBookByTitle(string SearchString);
         
    
