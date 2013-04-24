@@ -16,14 +16,17 @@
                 <section id="login">
                     @Html.Partial("_LoginPartial")
                 </section>
-                <section>
+                <section id="searchbar">
                     @Html.Partial("_SearchBarPartial")
                 </section>
+            </div>
+            <div class="left-floatmenu">
                 <nav>
                     <ul id="menu">
                         <li>@Html.ActionLink("Home", "Index", "Home")</li>
                         <li>@Html.ActionLink("About", "About", "Home")</li>
                         <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Books", "Index", "Books")</li>
                     </ul>
                 </nav>
             </div>

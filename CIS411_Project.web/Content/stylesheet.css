@@ -23,6 +23,13 @@ body {
 .left-float {
     float: left;
 }
+.left-floatmenu
+{
+    float: left;
+    clear:left;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
 
 /****************
 MAIN LAYOUT
@@ -85,7 +92,7 @@ LOGIN
 
 #login {
     display: block;
-    font-size: .85em;
+    font-size: 1em;
     font-weight: 800;
     margin: 0 0 10px;
     text-align: right;
@@ -150,3 +157,20 @@ ul#menu li a:hover {
     text-decoration: none;
 }
 
+.searchbar
+{
+    padding-top:40px;
+}
+
+#searchbtn
+{
+        background-color: #d3dce0;
+        border: 1px solid #787878;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 600;
+        padding: 7px;
+        margin-right: 8px;
+        width: auto;
+    }
+}
