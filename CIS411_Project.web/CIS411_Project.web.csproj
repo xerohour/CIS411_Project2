@@ -178,6 +178,9 @@
   <ItemGroup>
     <Content Include="Views\Books\Index.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Books\Details.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

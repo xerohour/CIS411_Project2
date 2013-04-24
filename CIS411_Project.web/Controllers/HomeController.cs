@@ -28,6 +28,7 @@ namespace CIS411_Project.web.Controllers
         //}
 
         [HttpGet]
+        [Authorize]
         public ActionResult About()
         {
             ViewBag.Message = "About";  

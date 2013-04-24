@@ -184,3 +184,13 @@ ul#menu li a:hover {
     width: 175px;
 }
 
+#landingTbl {
+    max-width: 960px;
+  
+}
+th, td {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 300px;
+    text-align:center;
+}

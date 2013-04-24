@@ -1,13 +1,12 @@
-﻿@model IEnumerable<CIS411_Project.Core.Models.Books>
+﻿@model CIS411_Project.Core.Models.Books
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Details";
 }
 
-<h2>Recently Added Books</h2>
+<h2>Details</h2>
 
-
-<table id="landingTbl">
+<table>
     <tr>
         
         <th>
@@ -31,9 +30,10 @@
         <th>
             @Html.DisplayNameFor(model => model.BOOK_PRICE)
         </th>
-         <th>
+        <th>
             @Html.Label("Details")
         </th>
+
     </tr>
 
 @foreach (var item in Model) {
@@ -60,8 +60,8 @@
         <td>
             @Html.DisplayFor(modelItem => item.BOOK_PRICE)
         </td>
-        <td>
-            @Html.ActionLink("Books", "Details", new {/*id=item.PrimaryKey*/}) 
+           <td>
+            @Html.ActionLink("Books", "Details", new { /* id=item.PrimaryKey */ }) 
         </td>
     </tr>
 }
