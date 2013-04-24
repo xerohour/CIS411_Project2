@@ -23,6 +23,13 @@ body {
 .left-float {
     float: left;
 }
+.left-floatmenu
+{
+    float: left;
+    clear:left;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
 
 /****************
 MAIN LAYOUT
@@ -66,8 +73,8 @@ TITLE
 .site-title {
     /*color: #c8c8c8;*/
     color: black;
-    font-family: "Myriad Pro", Courier New, Courier, monospace;
-    font-size: 2.3em;
+    font-family:  'Titillium Web', Myriad Pro, Courier New, Courier, monospace;
+    font-size: 3em;
     margin: 0;
 }
 
@@ -85,18 +92,18 @@ LOGIN
 
 #login {
     display: block;
-    font-size: .85em;
+    font-size: 1em;
     font-weight: 800;
     margin: 0 0 10px;
     text-align: right;
 }
 
     #login a {
-        background-color: #ffb146;
+        background-color: #ffc471;
         border: solid black 1px;
         margin-left: 10px;
         margin-right: 3px;
-        padding: 2px 3px;
+        padding: 5px;
         text-decoration: none;
     }
 
@@ -148,5 +155,32 @@ ul#menu li a {
 ul#menu li a:hover {
     color: #ffba00;
     text-decoration: none;
+}
+
+.searchbar
+{
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+#searchbtn
+{
+        background-color: #d3dce0;
+        border: 1px solid #787878;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 600;
+        padding: 7px;
+        margin-right: 8px;
+        width: auto;
+    
+}
+
+.searchtxtarea
+{
+    background-color: #c5d1fe;
+    border: 1px solid #787878;
+    padding: 5px;
+    width: 175px;
 }
 

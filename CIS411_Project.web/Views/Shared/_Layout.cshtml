@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:700' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title - TextBook Trader</title>
     <link href="~/Content/stylesheet.css" rel="stylesheet" />
@@ -16,14 +17,17 @@
                 <section id="login">
                     @Html.Partial("_LoginPartial")
                 </section>
-                <section>
+                <section id="searchbar">
                     @Html.Partial("_SearchBarPartial")
                 </section>
+            </div>
+            <div class="left-floatmenu">
                 <nav>
                     <ul id="menu">
                         <li>@Html.ActionLink("Home", "Index", "Home")</li>
                         <li>@Html.ActionLink("About", "About", "Home")</li>
                         <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Books", "Index", "Books")</li>
                     </ul>
                 </nav>
             </div>

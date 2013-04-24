@@ -15,35 +15,62 @@ namespace CIS411_Project.test.core
     public class BookServiceTest
     {
         IService bookService;
+        BookRepo bRepo;
+        UserRepo uRepo;
+        USER userA;
+        BOOK bookA;
 
         [TestInitialize]
-        void bookSetup()
+        public void bookSetup()
         {
             bookService = new BookService();
+            bRepo = new BookRepo();
+            uRepo = new UserRepo();
 
-            User user = new User 
-            { USER_FNAME = "Cory", 
+            userA = new USER 
+            {
+
+              USER_FNAME = "Cory", 
               USER_LNAME = "Jenkings", 
               PASSWORD = "cory", 
-              EMAIL = "cory@gmail.com", 
+              USER_EMAIL = "cory@gmail.com", 
               USER_DISPLAYNAME = "C.J", 
               CREATED_TIMESTAMP = DateTime.Now, 
-              REPUTATION = 509 };
+              REPUTATION = 509};
 
+            uRepo.add(userA);
+
+            bookA = new BOOK
+            {
+                USER_ID=333,
+                BOOK_PRICE = 20,
+                BOOK_PUBLISHER = "idk",
+                BOOK_TITLE = "my life",
+                BOOK_AUTHOR = "Ermin",
+                BOOK_EDITION = 10,
+                BOOK_DESC = "A book with words and pictures",
+                CREATED_TIMESTAMP = DateTime.Now,
+                ISBN10 = 1111111111,
+                ISBN13 = 1111111111111,
+                CATEGORY_ID=1,
+                CONDITION_ID=1
+            };
+            bRepo.add(bookA);
 
         }
 
         [TestMethod]
-        public void simpleBookServiceTest()
+        public void bookServiceTest()
         {
             IService service = new BookService();
-            ICollection<Books> books = service.listBooksByUser(1);
-            //bool hasBooks = false;
+            ICollection<Books> books = service.listBooksByUser(333);
             foreach (Books book in books)
             {
-                //hasBooks = true;
-                Assert.AreEqual(1, book.USER_ID);
-
+                Assert.AreEqual(333, book.USER_ID);
+                if (book.BOOK_TITLE == "Mario and Luigi")
+                {
+                    Assert.AreEqual(20, book.BOOK_PRICE);
+                }
             }
         }
     }
