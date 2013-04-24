@@ -24,17 +24,14 @@ namespace CIS411_Project.web.Controllers
         [HttpPost]
         public ActionResult Login(User user)
         {
-            if (ModelState.IsValid)
+            if (user.IsValid(user.USER_DISPLAYNAME, user.PASSWORD))
             {
-                if (user.IsValid(user.USER_DISPLAYNAME, user.PASSWORD))
-                {
-                    FormsAuthentication.SetAuthCookie(user.USER_DISPLAYNAME, user.RememberMe);
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Login data is incorrect!");
-                }
+                FormsAuthentication.SetAuthCookie(user.USER_DISPLAYNAME, user.RememberMe);
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Login data is incorrect!");
             }
             return View(user);
         }
