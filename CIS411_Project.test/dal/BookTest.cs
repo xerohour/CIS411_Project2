@@ -12,35 +12,34 @@ namespace CIS411_Project.test.dal
     public class BookTest
     {
         BookRepo bRepo;
-        BOOK bookA;
-
 
         [TestInitialize]
         public void setup()
         {
             bRepo = new BookRepo();
-            bookA = new BOOK
-            {
-                BOOK_ID = 1,
-                BOOK_TITLE = "derp",
-                BOOK_DESC = "book",
-                BOOK_AUTHOR = "jesus",
-                BOOK_EDITION = 1,
-                BOOK_PUBLISHER = "god",
-                ISBN10 = 123,
-                ISBN13 = 13,
-                CONDITION_ID = 10,
-                CATEGORY_ID = 1,
-                BOOK_PRICE = 5.99,
-                CREATED_TIMESTAMP = DateTime.Now
-            };
+         
+            bRepo.add(new BOOK
+            {   USER_ID=333,
+                CATEGORY_ID=1,
+                BOOK_AUTHOR="Yoooo",
+                BOOK_DESC="Mario",
+                BOOK_EDITION=10,
+                BOOK_PRICE=20,
+                BOOK_PUBLISHER="KOKO",
+                BOOK_TITLE="Mario and Luigi",
+                ISBN10=12345678910,
+                ISBN13=12345678910111,
+                CREATED_TIMESTAMP=DateTime.Now,
+                CONDITION_ID=1
+            });
 
-            bRepo.add(bookA);
         }
         [TestMethod]
         public void bookTitle()
         {
-            Assert.AreEqual(bookA.BOOK_TITLE, "derp");
+            BOOK b00k = bRepo.getById(new BOOK { BOOK_ID = 58 });
+            BOOK b00k2 = bRepo.getById(new BOOK {BOOK_ID = 59});
+            Assert.AreNotEqual(b00k.BOOK_TITLE, b00k2.BOOK_TITLE);
         }
 
 
